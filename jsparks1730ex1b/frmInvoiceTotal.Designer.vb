@@ -67,6 +67,7 @@ Partial Class frmInvoiceTotal
         Me.txtDiscountPercent.Name = "txtDiscountPercent"
         Me.txtDiscountPercent.Size = New System.Drawing.Size(120, 20)
         Me.txtDiscountPercent.TabIndex = 3
+        Me.txtDiscountPercent.Text = "5"
         '
         'Label3
         '
@@ -74,7 +75,7 @@ Partial Class frmInvoiceTotal
         Me.Label3.Location = New System.Drawing.Point(51, 87)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(87, 13)
-        Me.Label3.TabIndex = 4
+        Me.Label3.TabIndex = 6
         Me.Label3.Text = "Discount amount"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -84,7 +85,7 @@ Partial Class frmInvoiceTotal
         Me.txtDiscountamout.Name = "txtDiscountamout"
         Me.txtDiscountamout.ReadOnly = True
         Me.txtDiscountamout.Size = New System.Drawing.Size(120, 20)
-        Me.txtDiscountamout.TabIndex = 5
+        Me.txtDiscountamout.TabIndex = 7
         Me.txtDiscountamout.TabStop = False
         '
         'Label4
@@ -93,7 +94,7 @@ Partial Class frmInvoiceTotal
         Me.Label4.Location = New System.Drawing.Point(51, 119)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(31, 13)
-        Me.Label4.TabIndex = 6
+        Me.Label4.TabIndex = 8
         Me.Label4.Text = "Total"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.BottomRight
         '
@@ -103,7 +104,7 @@ Partial Class frmInvoiceTotal
         Me.txtTotal.Name = "txtTotal"
         Me.txtTotal.ReadOnly = True
         Me.txtTotal.Size = New System.Drawing.Size(120, 20)
-        Me.txtTotal.TabIndex = 7
+        Me.txtTotal.TabIndex = 9
         Me.txtTotal.TabStop = False
         '
         'btnCaculate
@@ -111,7 +112,7 @@ Partial Class frmInvoiceTotal
         Me.btnCaculate.Location = New System.Drawing.Point(82, 142)
         Me.btnCaculate.Name = "btnCaculate"
         Me.btnCaculate.Size = New System.Drawing.Size(80, 23)
-        Me.btnCaculate.TabIndex = 2
+        Me.btnCaculate.TabIndex = 4
         Me.btnCaculate.Text = "&Calculate"
         Me.btnCaculate.UseVisualStyleBackColor = True
         '
@@ -120,7 +121,7 @@ Partial Class frmInvoiceTotal
         Me.btnExit.Location = New System.Drawing.Point(215, 142)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(53, 23)
-        Me.btnExit.TabIndex = 3
+        Me.btnExit.TabIndex = 5
         Me.btnExit.Text = "E&xit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
